@@ -25,16 +25,15 @@ curl_setopt_array($curl, array(
 curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
 
 $response = curl_exec($curl);
+
 if(curl_errno($curl)){
     $error_message = curl_error($curl);
     error_log($error_message."error1");
-
 }
 curl_close($curl);
 $result = json_decode($response, true);
 if ($result && isset($result['data']['streamId'])) {
     $streamId = $result['data']['streamId'];
-
     echo $streamId;
 } else {
 }
