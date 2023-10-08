@@ -3,4 +3,5 @@
 
 # demo
 
-![chatu_php](https://github.com/chatu-ai/chatu-php-demo/assets/274085/2da54d87-9d8b-48b0-adbe-c151ea2f3af5)
+
+![chatu_php](https://github.com/chatu-ai/chatu-php-demo/assets/274085/46bee556-649f-42e8-a13b-570f5767f819)
